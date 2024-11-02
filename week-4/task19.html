@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>DOM</h1>   
+<p>(Document<br>
+    └── html<br>
+        ├── head<br>
+        │   └── title<br>
+        │       └── "My First Web Page"<br>
+        └── body<br>
+            ├── h1<br>
+            │   └── "Welcome to My Web Page"<br>
+            ├── p<br>
+            │   ├── "This is a paragraph with "<br>
+            │   ├── strong<br>
+            │   │   └── "bold text"<br>
+            │   └── "."<br>
+            └── a<br>
+                ├── "Visit Example"<br>
+                └── href="https://example.com"<br></p>
+    <h2>Explanation of the DOM Tree Structure</h2>
+
+      <p>1. Elements:
+
+Elements are the building blocks of an HTML document and correspond to the tags in the HTML code. <br>
+In the above example:
+
+<html>, <head>, <title>, <body>, <h1>, <p>, <strong>, and <a> are all elements.
+
+Elements can contain other elements (parent-child relationship) or text nodes.
+
+
+
+
+2. Attributes:
+
+Attributes provide additional information about an element and are defined within the opening tag of an element. In the example:
+
+The <a> element has an href attribute which specifies the URL to which the link points: href="https://example.com".
+
+
+Attributes are not shown as separate nodes in the tree but can be accessed as properties of the element.
+
+
+
+3. Text Nodes:
+
+Text nodes contain the actual text content of an element. In the DOM tree:
+
+For the <title> element, the text node is "My First Web Page".
+
+For the <h1> element, the text node is "Welcome to My Web Page".
+
+The paragraph (<p>) contains multiple text nodes: "This is a paragraph with ", "bold text", and ".".
+
+
+
+
+
+Summary
+
+The DOM tree structure visualizes how the document is organized, showing the relationships between elements, their attributes, and their text content. Understanding the DOM is essential for manipulating web pages using JavaScript, as you can traverse, modify, or interact with these nodes.</p>
+</body>
+</html>

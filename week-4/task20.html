@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Selection Example</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-title">Welcome to My Webpage</h1>
+    <p class="description">This is a paragraph with a description.</p>
+    <p class="description">This is another paragraph with a description.</p>
+    <ul>
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+    </ul>
+    <button id="my-button">Click Me!</button>
+
+    <script>
+        // Selecting elements by ID
+        const mainTitle = document.getElementById('main-title');
+        console.log("Element selected by ID:", mainTitle);
+
+        // Selecting elements by class name
+        const descriptions = document.getElementsByClassName('description');
+        console.log("Elements selected by Class:", descriptions);
+
+        // Selecting elements by tag name
+        const listItems = document.getElementsByTagName('li');
+        console.log("Elements selected by Tag name:", listItems);
+    </script>
+</body>
+</html>

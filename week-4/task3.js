@@ -1,0 +1,13 @@
+var n = "John";
+console.log(n); 
+let c = "New York";
+console.log(c);
+const country = "USA";
+console.log(country); 
+const person = { name: "Alice", age: 25 };
+person.age = 26; 
+console.log(person); 
+c = "8";
+console.log(c); 
+n = "6";
+console.log(n);
